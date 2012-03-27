@@ -19,7 +19,7 @@
   	var settings = $.extend( {
   		'username'	:	username,				
     	'refresh'	:	'15000',
-    	'loadingMsg':	'Caricamento in corso...',
+    	'loadingMsg':	'Please wait...',
     	'debug'		:	true,
     	// Flush the local storage, for debug use only
     	'flush'		:	false
