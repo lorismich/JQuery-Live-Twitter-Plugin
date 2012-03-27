@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+<head>
+	<title>JQuery Live Twitter Status</title>
+	
+	<script type='text/javascript' src='js/jquery-1.7.1.min.js'></script>
+	<script type='text/javascript' src='js/jquery.store.js'></script>
+	<script type='text/javascript' src='js/live_twitter.js'></script>
+	<script>
+		$(document).ready(function() {
+			$("#twitter_status").liveTwitter("lorismich",
+				{
+					loadingMsg: 'Attendere prego...',
+				}
+			);
+		});
+	</script>
+</head>
+<body>
+	<div id="twitter">
+		<img src="img/tweet_bird.png"><div id="twitter_status">Prova</div>
+	</div>
+</body>
+</html>
