@@ -9,22 +9,24 @@ This will display the message load only the first time you visit the page. Then 
 USAGE
 -------
 
-$(document).ready(function() {
-	$("#twitter_status").liveTwitter("lorismich");
-});
+	$(document).ready(function() {
+		$("#twitter_status").liveTwitter("lorismich");
+	});
 
 OR
 
-$("#twitter_status").liveTwitter("lorismich",
-	{
-		'refresh'		:	'30000',	
-		'loadingMsg'	: 	'...Please wait...',
-		'debug'			:	'false',
-		'flush'			:	'false'				
-	}
-);
+	$("#twitter_status").liveTwitter("lorismich",
+		{
+			'refresh'		:	'30000',	
+			'loadingMsg'	: 	'...Please wait...',
+			'debug'			:	'false',
+			'flush'			:	'false'				
+		}
+	);
 
-Default configuration:				
+### Default configuration:
+
+
 	'refresh'	:	'15000',					// Refresh time
 	'loadingMsg':	'Please wait...',			// Loading message
 	'debug'		:	true,						// Print message in console
@@ -32,4 +34,5 @@ Default configuration:
 
 
 Sorry for my english ;)
+
 Enjoy!
